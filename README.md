@@ -20,4 +20,4 @@ with open_loca(<file>, <cuts>) as sample:
 - ```event.<object_subleading>``` where ```<object_subleading> = photon_subleading, electron_subleading, ...``` sub-leading pt object of given type in event.
 
 - selected objects have a the usual kinematic attributes: ```object.pt, object.eta, object.is_lepton, obj1.DeltaR(obj2) ...```
-- the basic selection ```<cuts>``` must be given as a python dictionary: ```cuts = { <object> : [pt_min, pt_max, abs(eta_max)]```   
+- the basic selection ```<cuts>``` must be given as a python dictionary: ```cuts = { <object> : [pt_min, pt_max, abs(eta_max)] }```   
