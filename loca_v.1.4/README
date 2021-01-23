@@ -34,9 +34,7 @@ that satisfy the basic kinematic selection <cuts>.
     where: 
 
           <objects> = photons, electrons, muons, taus, jets, bjets, met, leptons, all_objects
-
           <nobjects> = nphotons, nelecs, nmuons, ntaus, nleps, njets, nbjets
-
           <object_leading> = photon_leading, electron_leading, ...
           <object_subleading> = photon_subleading, electron_subleading, ...
 
