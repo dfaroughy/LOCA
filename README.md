@@ -8,7 +8,7 @@ that satisfy the basic kinematic selection ```<cuts>```.
 
 # usage:
 ```
-with open_loca(<file>, <cuts>) as sample:
+with open_loca(<lhcofile>, <cuts>) as sample:
     for event in sample:
         # apply cuts to event
 ```
