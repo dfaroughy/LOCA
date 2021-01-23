@@ -2,7 +2,7 @@
 
 **L**HC**O** **C**utflow **A**nalysis: python module for analyzing collider events in LHCO format.
 
-Main function is: ```open_loca(<file>,<cuts>)```
+Main function is: ```open_loca(<lhcofile>,<cuts>)```
 This opens the lhco files and extracts the event blocks from the sample
 that satisfy the basic kinematic selection ```<cuts>```.
 
