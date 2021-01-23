@@ -10,7 +10,7 @@
 ####### ############      LHC  Olympics  Cuts  Analyzer      ############ #######
 ###### ################################################################### ######
 
-loca_v1.3
+loca_v1.4
 
 Main class is: open_loca(<file>,<cuts>)
 This opens the lhco files and extracts the event blocks from the sample
@@ -33,8 +33,7 @@ that satisfy the basic kinematic selection <cuts>.
 
     where: 
 
-          <objects> = photons, electrons, muons, taus, jets, 
-                      bjets, met, leptons, all_objects
+          <objects> = photons, electrons, muons, taus, jets, bjets, met, leptons, all_objects
 
           <nobjects> = nphotons, nelecs, nmuons, ntaus, nleps, njets, nbjets
 
@@ -48,8 +47,7 @@ that satisfy the basic kinematic selection <cuts>.
     obj1.DeltaR(obj2)
     ...
 
-
 - the basic selection <cuts> must be given as a python dictionary:
 
-	cuts = { <object> : [pt_min, pt_max, abs(eta_max)]   
+	cuts = { <object> : [pt_min, pt_max, abs(eta_max)] } 
 
