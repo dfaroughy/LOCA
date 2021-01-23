@@ -1,7 +1,7 @@
-# LHC  Olympics  Cuts  Analyzer
+# LHCO Cuts Analyzer
 Performs basic cut analysis on LHCO files in python
 
-loca_v1.3
+loca_v1.4
 
 Main class is: ```open_loca(<file>,<cuts>)```
 This opens the lhco files and extracts the event blocks from the sample
