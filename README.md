@@ -1,6 +1,6 @@
-# LHCO Cuts Analyzer
-Performs basic cut analysis on LHCO files in python
+# LOCA
 
+LhcO Cutflow Analysis (LOCA): python module that performs basic selection cuts on LHCO collider event files.
 loca_v1.4
 
 Main class is: ```open_loca(<file>,<cuts>)```
