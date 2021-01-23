@@ -1,6 +1,6 @@
 # LOCA
 
-**L**HC**O** **C**utflow **A**nalysis: python module that performs basic selection cuts on LHCO collider event files.
+**L**HC**O** **C**utflow **A**nalysis: LHCO Cutflow Analysis (LOCA): python module for analyzing collider events in LHCO format.
 
 Main function is: ```open_loca(<file>,<cuts>)```
 This opens the lhco files and extracts the event blocks from the sample
