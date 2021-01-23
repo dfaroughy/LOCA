@@ -1,2 +1,24 @@
-# LHCOanalysis
-LOCA : LHCO Cutflow Analysis    Performs basic cutanalysis on LHCO files in python
+# LHC  Olympics  Cuts  Analyzer
+Performs basic cut analysis on LHCO files in python
+
+loca_v1.3
+
+Main class is: ```open_loca(<file>,<cuts>)```
+This opens the lhco files and extracts the event blocks from the sample
+that satisfy the basic kinematic selection ```<cuts>```.
+
+# usage:
+```
+with open_loca(<file>, <cuts>) as sample:
+    for event in sample:
+        # apply cuts to event
+```
+event has several attributes:
+
+- ```event.<objects>``` where ```<objects> = photons, electrons, muons, taus, jets, bjets, met, leptons, all_objects```: list of selected objects of given type in event.
+- ```event.<nobjects>``` where ```<nobjects> = nphotons, nelecs, nmuons, ntaus, nleps, njets, nbjets```: number of selected objects of given type in event, 
+- ```event.<object_leading>``` where ```<object_leading> = photon_leading, electron_leading, ... ```: leading pt object of of given type in event.
+- ```event.<object_subleading>``` where ```<object_subleading> = photon_subleading, electron_subleading, ...``` sub-leading pt object of given type in event.
+
+- selected objects have a the usuaal kinematic attributes: ```object.pt, object.eta, object.is_lepton, obj1.DeltaR(obj2) ...```
+- the basic selection <cuts> must be given as a python dictionary: ```cuts = { <object> : [pt_min, pt_max, abs(eta_max)]```   
