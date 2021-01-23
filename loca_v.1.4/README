@@ -12,14 +12,14 @@
 
 loca_v1.4
 
-Main class is: open_loca(<file>,<cuts>)
+Main class is: open_loca(<lhcofile>,<cuts>)
 This opens the lhco files and extracts the event blocks from the sample
 that satisfy the basic kinematic selection <cuts>.
 
 - usage:
 
    ------------------------------------------
-    with open_loca(<file>, <cuts>) as sample:
+    with open_loca(<lhcofile>, <cuts>) as sample:
         for event in sample:
             # apply cuts to event
    ------------------------------------------
