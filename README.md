@@ -12,7 +12,7 @@ with open_loca(<file>, <cuts>) as sample:
     for event in sample:
         # apply cuts to event
 ```
-event has several attributes:
+```event``` has several attributes:
 
 - ```event.<objects>``` where ```<objects> = photons, electrons, muons, taus, jets, bjets, met, leptons, all_objects```: list of selected objects of given type in event.
 - ```event.<nobjects>``` where ```<nobjects> = nphotons, nelecs, nmuons, ntaus, nleps, njets, nbjets```: number of selected objects of given type in event, 
