@@ -3,7 +3,7 @@
 **L**HC**O** **C**utflow **A**nalysis: python module that performs basic selection cuts on LHCO collider event files.
 loca_v1.4
 
-Main class is: ```open_loca(<file>,<cuts>)```
+Main function is: ```open_loca(<file>,<cuts>)```
 This opens the lhco files and extracts the event blocks from the sample
 that satisfy the basic kinematic selection ```<cuts>```.
 
